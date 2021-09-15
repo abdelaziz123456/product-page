@@ -187,12 +187,12 @@ function ProductSide (){
                <p className="small-text mx-2">
                page  </p> 
                  
-               <p className='mx-2 page-num'>
+               <p className='mx-2 small-text page-num'>
                    1
                </p>
                    
                
-               <p className='mx-2'>z<sup>3</sup></p>
+               <p className='mx-2 small-text'>z3</p>
 
                <p className="small-text   text-decoration-underline  ms-5">
                Next </p> 

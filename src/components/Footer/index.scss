@@ -22,3 +22,20 @@ $color-orange:#FBB03B;
         color:black ;
     }
 }
+.footer-links{
+    .small-text{
+        font-size: 12px;
+        color: grey;
+        letter-spacing: 0ch;
+        margin-bottom: 5px;
+    }
+    .footer-icons{
+        i{
+            color: rgba(128, 128, 128, 0.507);
+            cursor: pointer;
+
+        }
+        
+    }
+   
+}
