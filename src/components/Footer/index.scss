@@ -1,0 +1,24 @@
+
+$color-orange:#FBB03B;
+
+.subscribe{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/background.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 200px;
+    .sub-input{
+        width: 350px;
+        height: 40px;
+        border-radius: 25px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .btn-orange{
+        font-size: smaller;
+        height: 40px;
+        border-radius: 15px;
+        background-color: $color-orange;
+        color:black ;
+    }
+}

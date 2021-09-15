@@ -1,9 +1,18 @@
+
 $color-orange:#FBB03B;
 
 .text-orange{
     color:$color-orange
 }
 
-.logo{
-    font-size: 19px;
+
+
+.header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    .logo{
+        font-size: 19px;
+    }
+    .center{
+        font-size: 14px;
+    }
 }

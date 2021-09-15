@@ -1,17 +1,40 @@
 import './index.scss'
+
+import {PersonOutlineOutlined, SearchOutlined, ShoppingCartOutlined } from "@material-ui/icons";
+
 function Header(){
     return (
-        <div className='header'>
+        <div className='header d-flex justify-content-between px-5 py-4'>
            
-            <div className="container d-flex justify-content-between">
+            
                <div className="logo"><span className='text-orange'>E</span>-shop</div>
-               <div >
-                 <span className='px-4'>Men</span>
-                 <span className='px-4'>Women</span>
-                 <span className='px-4'> Kids</span>  
+
+               <div className='center'>
+                 <span className='px-4 fw-bold '>Men</span>
+                 <span className='px-4 fw-bold '>Women</span>
+                 <span className='px-4  fw-bold'> Kids</span>  
+                 
+
                </div>
-               <div className="right">right</div>
-            </div>
+
+               <div className="right">
+
+               <span className='px-2 '>
+                 <SearchOutlined style={{ fontSize: 'large' }}/>
+
+                 </span>
+               <span className='px-2  fw-light'>
+               <ShoppingCartOutlined style={{ fontSize: 'large' }}/>
+
+               </span>
+
+                 
+
+                 <span className='px-2 '>
+                 <PersonOutlineOutlined style={{ fontSize: 'large' }}/>
+                 </span>
+               </div>
+            
         </div>
     )
 }
