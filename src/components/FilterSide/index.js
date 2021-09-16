@@ -18,13 +18,18 @@ function FilterSide(){
             <div className="filter-param">
                 <div className="param-header ">
                     <p className='mt-1 small-text'>product type</p>
-                    <p className='drop-icon'>&circ;</p>
+                    
+                    <a className='text-decoration-none drop-icon'  data-bs-toggle="collapse" href="#typeCollapse" role="button"  
+                    aria-expanded="false"
+                    aria-controls="typeCollapse">
+                    &circ;
+                    </a>
 
                 </div>
 
 
-                <div className="param-content d-block ">
-                <div class="form-check">
+                <div id="typeCollapse"  className=" collapse param-content ">
+                <div className="form-check">
                     <input class="form-check-input" type="checkbox" value="tshirts" id="tshirts"/>
                     <label class="form-check-label  text-capitalize ms-2" for="tshirts">
                      T-shirts
@@ -56,9 +61,13 @@ function FilterSide(){
             <div className="filter-param">
                 <div className="param-header">
                 <p className='mt-1 small-text'>price</p>
-                    <p className='drop-icon'>&circ;</p>
+                <a className='text-decoration-none drop-icon'  data-bs-toggle="collapse" href="#priceCollapse" role="button"  
+                    aria-expanded="false"
+                    aria-controls="priceCollapse">
+                    &circ;
+                    </a>
                 </div>
-                <div className="param-content px-3 d-block">
+                <div id="priceCollapse"  className=" collapse  px-3 param-content">
                     <div className="d-flex justify-content-between">
                         <div className="price-text  text-muted">
                             0 USD
@@ -84,12 +93,40 @@ function FilterSide(){
             </div>
 
             <div className="filter-param">
-                <div className="param-header">
-                <p className='mt-1 small-text'>collection</p>
-                    <p className='drop-icon'>&#711;</p>
-                </div>
-                <div className="param-content">
+                <div className="param-header ">
+                    <p className='mt-1 small-text'>collection</p>
+                    
+                    <a className='text-decoration-none drop-icon'  data-bs-toggle="collapse" href="#collectionCollapse" role="button"  
+                    aria-expanded="false"
+                    aria-controls="collectionCollapse">
+                    &circ;
+                    </a>
 
+                </div>
+
+
+                <div id="collectionCollapse"  className=" collapse param-content ">
+                <div className="form-check">
+                    <input class="form-check-input" type="checkbox" value="men" id="men"/>
+                    <label class="form-check-label  text-capitalize ms-2" for="men">
+                     Men
+                    </label>
+
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="women" id="women" />
+                    <label className="form-check-label ms-2 text-capitalize" for="women">
+                    women
+                    </label>
+                    </div>
+
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="kids" id="kids" />
+                    <label className="form-check-label ms-2 text-capitalize" for="kids">
+                    Kids
+                    </label>
+                    </div>
+                   
                 </div>
             </div>
 
@@ -97,15 +134,22 @@ function FilterSide(){
             <div className="filter-param">
                 <div className="param-header">
                 <p className='mt-1 small-text'>size</p>
-                    <p className='drop-icon'>&circ;</p>
+                <a className='text-decoration-none drop-icon'  data-bs-toggle="collapse" href="#sizeCollapse" role="button"  
+                    aria-expanded="false"
+                    aria-controls="sizeCollapse">
+                    &circ;
+                    </a>
                 </div>
-                <div className="param-content d-flex">
+                <div className="param-content collapse"   id="sizeCollapse"  >
+                    <div className="d-flex justify-content-center">
                     <div className='size'>xs</div>
                     <div className='size'>s</div>
                     <div className='size'>m</div>
                     <div className='size'>l</div>
                     <div className='size'>xl</div>
                     <div className='size'>xxl</div>
+                    </div>
+                    
 
                 </div>
             </div>
@@ -114,9 +158,17 @@ function FilterSide(){
             <div className="filter-param">
                 <div className="param-header">
                 <p className='mt-1 small-text'>color</p>
-                    <p className='drop-icon'>&circ;</p>
+                <a className='text-decoration-none drop-icon'  data-bs-toggle="collapse" href="#colorCollapse" role="button"  
+                    aria-expanded="false"
+                    aria-controls="colorCollapse">
+                    &circ;
+                    </a>
                 </div>
-                <div className="param-content d-flex">
+                <div className="param-content collapse"   id="colorCollapse">
+
+                    <div className="d-flex justify-content-center">
+
+                    
                     <div className='non-colored' >
                         <div className='colored' style={{backgroundColor:'black'}}>
 
@@ -149,6 +201,7 @@ function FilterSide(){
                      className='colored' style={{backgroundColor:'#0F73AD'}}>
                     
 
+                    </div>
                     </div>
                     </div>
 
