@@ -17,6 +17,7 @@ $color-orange:#FBB03B;
     }
     .img-div{
         position: relative;
+        max-width: 300px;
         .favorite-icon{
             position: absolute;
             top: 15px;
@@ -31,6 +32,9 @@ $color-orange:#FBB03B;
                 color: #fff;
             }
             
+        }
+        img{
+            width:100%
         }
 
         

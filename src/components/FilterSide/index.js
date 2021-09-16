@@ -23,7 +23,7 @@ function FilterSide(){
                 </div>
 
 
-                <div className="param-content ">
+                <div className="param-content d-block ">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="tshirts" id="tshirts"/>
                     <label class="form-check-label  text-capitalize ms-2" for="tshirts">
@@ -58,7 +58,7 @@ function FilterSide(){
                 <p className='mt-1 small-text'>price</p>
                     <p className='drop-icon'>&circ;</p>
                 </div>
-                <div className="param-content px-3">
+                <div className="param-content px-3 d-block">
                     <div className="d-flex justify-content-between">
                         <div className="price-text  text-muted">
                             0 USD
